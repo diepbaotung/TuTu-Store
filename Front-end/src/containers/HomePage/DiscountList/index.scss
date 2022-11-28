@@ -1,0 +1,54 @@
+.Discount-List {
+  border-radius: 8px;
+  border: 1px solid rgb(230, 230, 230);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 576px;
+  &.bg {
+    &-0 {
+      background: #FF8FB1 ;
+    }
+    &-1 {
+      background: #f5aa95 ;
+    }
+    &-2 {
+      background: #B270A2;
+    }
+    &-3 {
+      background: #7A4495;
+    }
+    &-4 {
+      background: #8363e9;
+    }
+  }
+  .header {
+    height: 64px;
+    &-item {
+      & > * {
+        color: grey;
+      }
+      &.active {
+        background-color: transparent;
+        & > * {
+          color: #f1f1f1;
+        }
+      }
+    }
+  }
+
+  .Related-Products {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Discount-List {
+    .header {
+      display: none;
+    }
+    .countdown {
+      display: none;
+    }
+  }
+}
