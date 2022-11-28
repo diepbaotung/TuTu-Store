@@ -133,28 +133,15 @@ const getFilterProducts = async (req, res, next) => {
     if (pOption == undefined) pOption = '{}';
     if (dOption == undefined) dOption = '{}';
 
-    // convert to object
-    let pOptionQuery = helpers.convertObjectContainsRegex(JSON.parse(pOption));
-    const dOptionQuery = helpers.convertObjectContainsRegex(
-      JSON.parse(dOption),
-    );
 
     // pagination
     if (!page) page = 1;
     if (!perPage) perPage = 8;
     const nSkip = (parseInt(page) - 1) * perPage;
 
-    // populate query
-    const joinQuery = {
-      path: 'idProduct',
-      match: pOptionQuery,
-      select: '-otherInfo -code',
-    };
+    const products = await ProductModel.find({type});
 
-    // giữ lại thuộc tính chung sản phẩm và lọc giá trị null được tạo ra khi populate
-    products = products.map((item) => item.idProduct);
-    products = products.filter((item) => item !== null);
-
+    console.log(products, 'This is products');
     // return
     if (products) {
       return res.status(200).json({

@@ -21,7 +21,9 @@ function HomePage() {
       <div className="pos-relative">
         <SaleOff />
         <div className="filter-wrapper trans-center container w-100 h-80">
-          <Filter />
+          <Col span={6}>
+            <Filter />
+          </Col>
         </div>
       </div>
 

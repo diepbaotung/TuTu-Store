@@ -6,6 +6,8 @@ import helpers from 'helpers';
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCarousel from '../ProductCarousel';
+import Filter from 'components/Filter';
+import { Col, Row } from 'antd';
 import './index.scss';
 
 // fn: thêm option vào url
@@ -89,7 +91,6 @@ function analysisQueryList(queryList = []) {
   });
   return query;
 }
-
 // fn: main
 function FilterResult() {
   // get query param
@@ -260,10 +261,16 @@ function FilterResult() {
 
   // rendering...
   return (
-    <div className="container" style={{ minHeight: '100vh' }}>
+
+    <div className="container" style={{ minHeight: '100vh', display: 'flex' }}>
+      <Col span={6} className="m-r-25">
+        <div className="filter-wrapper trans-center w-100 h-80">
+          <Filter />
+        </div>
+      </Col>
+      <Col span={18}>
       {/* Carousel */}
       <ProductCarousel />
-
       {/* Số  kết quả tìm kiếm */}
       {!isLoading && (
         <h2 className="font-size-24px m-b-12">
@@ -297,8 +304,12 @@ function FilterResult() {
           )}
         </>
       )}
+      </Col>
     </div>
   );
+
 }
 
 export default FilterResult;
+
+

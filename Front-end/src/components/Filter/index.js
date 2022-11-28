@@ -26,12 +26,9 @@ function Filter() {
 
   // rendering ...
   return (
-    <Row className="Filter" onMouseLeave={onCloseDetails}>
-      <Col span={2} sm={4} md={8} xl={6}>
-        <MenuFilter onShow={onShowDetails} />
-      </Col>
-
-    </Row>
+    <>
+      <MenuFilter onShow={onShowDetails} />
+    </>
   );
 }
 

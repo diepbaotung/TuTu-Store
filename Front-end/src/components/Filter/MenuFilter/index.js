@@ -31,7 +31,7 @@ const menu = [
   },
   {
     key: 2,
-    to: '/filter?type=2',
+    to: '/filter?t=2',
     icon: ramIcon,
     title: 'Chăm sóc tóc',
   },
@@ -66,7 +66,7 @@ function MenuFilter(props) {
           <div
             onMouseEnter={() => onShow(item.key)}
             key={index}
-            className="w-100 p-lr-8 p-tb-4  Filter-menu-item">
+            className="w-500 p-lr-8 p-tb-4  Filter-menu-item">
             <Link to={item.to} className="d-flex align-i-center">
               <img src={item.icon} className="icon m-lr-8" />
               <span className="title">{item.title}</span>
