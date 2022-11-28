@@ -1,12 +1,11 @@
-  <h1 align="center"><b>TTB STORE WEBSITE</b></h1>
+  <h1 align="center"><b>TUTU STORE COSMERTICS WEBSITE</b></h1>
 
-- ## TTB Store là một website về cửa hàng thiết bị điện tử.
-- ## Link demo: https://ttbstorevn.web.app/
+- ## TuTu Store là một website về mỹ phẩm.
+
 
 - ## ✨ **Tính năng**
 
-  - Show các sản phẩm nổi bật, chương trình khuyến mãi...
-  - Tìm kiếm, lọc sản phẩm theo yêu cầu người dùng.
+  - Tìm kiếm theo yêu cầu người dùng.
   - Hiển thị chi tiết sản phẩm và đề xuất các sản phẩm liên quan.
   - Cho phép người dùng thêm, bớt sản phẩm trong giỏ hàng.
   - So sánh 2 sản phẩm.
@@ -31,9 +30,7 @@
     - Restful API với Axios.
   - ### **Tool Team Work**
     - Git, Github.
-    - Eslint, EditorConfig, Jsconfig.
     - Trello.
-    - Slack.
     - IDE: Visual Studio Code.
 
 - ## 📦 **Cài đặt node_module trước khi chạy**
