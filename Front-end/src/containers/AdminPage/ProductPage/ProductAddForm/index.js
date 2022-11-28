@@ -216,7 +216,7 @@ function AddProduct() {
                     size="large"
                     placeholder="Mã sản phẩm *"
                     suffix={
-                      <Tooltip title="SKU200500854">
+                      <Tooltip title="S19110000">
                         <InfoCircleOutlined style={{ color: suffixColor }} />
                       </Tooltip>
                     }
@@ -234,7 +234,7 @@ function AddProduct() {
                     size="large"
                     placeholder="Tên sản phẩm *"
                     suffix={
-                      <Tooltip title="Laptop Apple MacBook Air 13 2019 MVFM2SA/A (Core i5/8GB/128GB SSD/UHD 617/macOS/1.3 kg)">
+                      <Tooltip title="Sữa rửa mặt Nivia">
                         <InfoCircleOutlined style={{ color: suffixColor }} />
                       </Tooltip>
                     }
@@ -246,9 +246,8 @@ function AddProduct() {
                   name="type"
                   >
                   <Select
-                    className="m-l-20"
                     size="large"
-                    style={{ width: 250 }}
+                    style={{ width: 325 }}
                     onChange={onProductTypeChange}
                     placeholder="Chọn loại sản phẩm *">
                     {constants.PRODUCT_TYPES.map((item, index) => (
@@ -300,7 +299,7 @@ function AddProduct() {
                     size="large"
                     placeholder="Thương hiệu *"
                     suffix={
-                      <Tooltip title="Apple">
+                      <Tooltip title="Senka">
                         <InfoCircleOutlined style={{ color: suffixColor }} />
                       </Tooltip>
                     }
@@ -318,7 +317,7 @@ function AddProduct() {
                     size="large"
                     min={0}
                     max={240}
-                    placeholder="Tg bảo hành (Theo tháng) *"
+                    placeholder="Hạn sử dụng (Theo tháng) *"
                   />
                 </Form.Item>
               </Col>
@@ -333,7 +332,7 @@ function AddProduct() {
                     size="large"
                     min={0}
                     max={30}
-                    placeholder="phần trăm khuyến mãi (5%) *"
+                    placeholder="Phần trăm khuyến mãi (5%) *"
                   />
                 </Form.Item>
               </Col>

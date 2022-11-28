@@ -58,11 +58,6 @@ function MonthlyRevenue() {
             labels: generateLabels(),
             datasets: [
               {
-                backgroundColor: '#2EA62A',
-                data: [...data.lastYear],
-                label: `Năm ${year - 1}`,
-              },
-              {
                 backgroundColor: '#4670FF',
                 data: [...data.thisYear],
                 label: `Năm ${year}`,
@@ -73,7 +68,7 @@ function MonthlyRevenue() {
             legend: { display: true },
             title: {
               display: true,
-              text: `Doanh thu theo từng tháng của năm ${year - 1}, ${year}`,
+              text: `Doanh thu theo từng tháng của năm ${year}`,
               fontSize: 18,
             },
             scales: {

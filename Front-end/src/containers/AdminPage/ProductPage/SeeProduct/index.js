@@ -105,8 +105,8 @@ function SeeProduct() {
       title: 'Loại',
       key: 'type',
       dataIndex: 'type',
-
       onFilter: (value, record) => record.type === value,
+      render: (type) => helpers.convertProductType(type),
     },
     {
       title: 'Thương hiệu',
@@ -143,7 +143,7 @@ function SeeProduct() {
       render: (rate) => helpers.calStar(rate).toFixed(1),
     },
     {
-      title: 'Hành động',
+      title: ' ',
       key: 'actions',
       fixed: 'right',
       width: 100,

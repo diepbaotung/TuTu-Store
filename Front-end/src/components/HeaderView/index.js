@@ -132,7 +132,7 @@ function HeaderView() {
       <div className="header container h-100 d-flex justify-content-between align-i-center">
         {/* Logo */}
         <Link to="/">
-        <span className="title">TuTu Store</span>
+        <span style={{ fontSize: 42,fontFamily: 'cursive', color: '#FF8FB1' }}>TuTu Store</span>
         </Link>
 
         {/* thanh tìm kiếm */}

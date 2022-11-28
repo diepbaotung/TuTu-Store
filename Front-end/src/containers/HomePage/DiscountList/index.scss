@@ -1,25 +1,25 @@
 .Discount-List {
   border-radius: 8px;
-  border: 1px solid rgb(230, 230, 230);
+  border: 1px solid rgb(2, 2, 2);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   height: 576px;
   &.bg {
     &-0 {
-      background: #FF8FB1 ;
+      background: #F5EBE0 ;
     }
     &-1 {
-      background: #f5aa95 ;
+      background: #A5F1E9 ;
     }
     &-2 {
-      background: #B270A2;
+      background: #FFD6EC;
     }
     &-3 {
-      background: #7A4495;
+      background: #b7b5f8;
     }
     &-4 {
-      background: #8363e9;
+      background: #90E0EF;
     }
   }
   .header {
@@ -31,7 +31,7 @@
       &.active {
         background-color: transparent;
         & > * {
-          color: #f1f1f1;
+          color: #000000;
         }
       }
     }
