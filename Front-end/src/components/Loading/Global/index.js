@@ -13,7 +13,7 @@ function GlobalLoading(props) {
 }
 
 GlobalLoading.defaultProps = {
-  content: 'TTB Store Loading...',
+  content: 'Tutu Store Cosmetics Loading...',
 };
 
 GlobalLoading.propTypes = {
