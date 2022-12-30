@@ -25,7 +25,7 @@ function FooterView() {
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn quảng cáo</h2>
             <h2 className="footer-contact-item">
-              <b>19110348</b>
+              <b>19110000</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
@@ -45,7 +45,7 @@ function FooterView() {
           <br></br>
           <strong>Văn phòng:</strong>&nbsp; Trường ĐH Sư Phạm Kỹ Thuật, Thành Phố Thủ Đức, Thành phố Hồ Chí Minh
           <br />
-          <strong>Điện&nbsp;thoại:</strong>&nbsp;19110045,19110488,19110348 |{' '}
+          <strong>Điện&nbsp;thoại:</strong>&nbsp;19110045,19110488 |{' '}
           <strong>Email:</strong>&nbsp;pnttruc258@gmail.com&nbsp;|{' '}
           <strong>Website:</strong>&nbsp;<a href="/">http://localhost:8080/</a>
         </p>
