@@ -36,15 +36,15 @@
 - ## 📦 **Cài đặt node_module trước khi chạy**
 
   ```
-  > cd Back-end -> yarn install
-  > cd Front-end -> yarn install
+  > cd Back-end -> npm install
+  > cd Front-end -> npm install
   ```
 
 - ## 🔨 **Run project**
   - Thay file .local.env bằng file .env và thay các giá trị trong file .env. Sau đó, chạy các lệnh sau:
   ```
-    > cd front-end -> yarn build
-    > cd back-end -> yarn start (node index.js)
+    > cd front-end -> npm start
+    > cd back-end -> npm run dev (node index.js)
     > browser: http://localhost:{ PORT | 3000 }
   ```
 - ## 🌍 **Document API**
