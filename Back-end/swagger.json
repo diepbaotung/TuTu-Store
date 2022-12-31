@@ -1,11 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "API dành cho trang web TTB Store",
+    "description": "API dành cho trang web TuTu-Store",
     "version": "1.0.0",
-    "title": "TTB Store API",
+    "title": "TuTu-Store API",
     "contact": {
-      "email": "tuannguyentn2504@gmail.com"
+      "email": "baotung182001@gmail.com"
     }
   },
   "basePath": "/",
