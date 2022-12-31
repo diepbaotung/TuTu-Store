@@ -11,7 +11,7 @@ const getStaMonthlyRevenue = async (req, res, next) => {
         $gte: new Date(`${year}-01-01`),
         $lte: new Date(`${year}-12-31`),
       },
-      orderStatus: 6,
+      orderStatus: 3,
     }).select('-_id orderDate numOfProd transportFee orderProd.price');
 
     // lấy danh sách đơn hàng năm trước đó
@@ -20,7 +20,7 @@ const getStaMonthlyRevenue = async (req, res, next) => {
         $gte: new Date(`${parseInt(year) - 1}-01-01`),
         $lte: new Date(`${parseInt(year) - 1}-12-31`),
       },
-      orderStatus: 6,
+      orderStatus: 3,
     }).select('-_id orderDate numOfProd transportFee orderProd.price');
 
     // kết quả sau thống kê
@@ -63,7 +63,7 @@ const getStaAnnualRevenue = async (req, res, next) => {
         $gte: new Date(`${startYear}-01-01`),
         $lte: new Date(`${endYear}-12-31`),
       },
-      orderStatus: 6,
+      orderStatus: 3,
     }).select('-_id orderDate numOfProd transportFee orderProd.price');
 
     let result = [
