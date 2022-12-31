@@ -107,5 +107,5 @@ app.use('/apis/statistic', statisticApi);
 
 // Note: Khi deploy production, việc redirect các route sẽ để react giải quyết
 app.get('*', (req, res) => {
-  res.sendFile(path.join('C:/Users/thanh/Downloads/soucre-code-bao-cao-ttb/soucre-code-bao-cao-ttb-project/ttb-store/Front-end/', 'index.html'));
+  res.sendFile(path.join('C:/D/ReactJS/TuTu-Store/Front-end', 'index.html'));
 });

@@ -1,17 +1,3 @@
-import cameraIcon from 'assets/icon/products/camera_32px.png';
-import displayIcon from 'assets/icon/products/display_32px.png';
-import hdtvIcon from 'assets/icon/products/hdtv_32px.png';
-import headphoneIcon from 'assets/icon/products/headphones_32px.png';
-import laptopIcon from 'assets/icon/products/laptop_32px.png';
-import mainboardIcon from 'assets/icon/products/mainboard_32px.png';
-import mobileIcon from 'assets/icon/products/mobile_32px.png';
-import mouseIcon from 'assets/icon/products/mouse_32px.png';
-import ramIcon from 'assets/icon/products/ram_32px.png';
-import routerIcon from 'assets/icon/products/router_32px.png';
-import speakerIcon from 'assets/icon/products/speaker_32px.png';
-import ssdIcon from 'assets/icon/products/ssd_32px.png';
-import keyboardIcon from 'assets/icon/products/keyboard_32px.png';
-
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
