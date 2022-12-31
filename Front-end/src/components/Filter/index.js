@@ -1,7 +1,5 @@
-import { Col, Row } from 'antd';
 import constants from 'constants/index';
 import React, { useState } from 'react';
-import DetailFilter from './DetailFilter';
 import './index.scss';
 import MenuFilter from './MenuFilter';
 
