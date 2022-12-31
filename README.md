@@ -19,14 +19,12 @@
   - ### **Back-end, Database**
     - NodeJS (ExpressJS).
     - MongoDB (mongooseJS).
-    - Hosting: Heroku server
     - Cloud Server: Atlas MongoDB, Cloudinary.
     - API Documents: Swagger.
   - ### **Front-end**
-    - SPA (Single Page Application) & CSR (Client Side Rendering) với ReactJS.
-    - State Management Tool: Redux + Redux thunk.
+    - ReactJS.
+    - Redux.
     - Xây dựng UI với Ant Design, Css, Scss.
-    - Build project với Webpack.
     - Restful API với Axios.
   - ### **Tool Team Work**
     - Git, Github.
@@ -49,9 +47,3 @@
   ```
 - ## 🌍 **Document API**
   `> browser: http://localhost:{PORT}/api-docs/`
-- ## 🖥 **Môi trường hỗ trợ**
-
-  - Modern browsers, Mobile Browser and Internet Explorer 11.
-
-  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br> Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari |
-  | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
