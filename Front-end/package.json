@@ -10,7 +10,7 @@
     "dev": "webpack --config webpack.config.js --env.mode=development"
   },
   "keywords": [],
-  "author": "NMCNPM18_3",
+  "author": "PNTT_DBT",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.4",
