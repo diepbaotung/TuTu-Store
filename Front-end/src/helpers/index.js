@@ -148,7 +148,7 @@ const convertProductKey = (key) => {
     case 'brand':
       return 'Thương hiệu';
     case 'warranty':
-      return 'Bảo hành';
+      return 'Hạn sử dụng';
     default:
       return 'Chi tiết khác';
   }
